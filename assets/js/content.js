@@ -2,9 +2,9 @@
 const CONTENT = {
   pt: {
     meta: {
-      title: "Alice Perim Borges — Analista de TI Pleno | Backend Developer",
+      title: "Alice Perim Borges — Desenvolvedora BPM Pleno | Backend Developer",
       description:
-        "Portfólio de Alice Perim Borges, Analista de TI Pleno e Backend Developer especializada em Python, Azure e GCP.",
+        "Portfólio de Alice Perim Borges, Desenvolvedora BPM Pleno e Backend Developer especializada em Python, Azure e GCP.",
     },
     nav: {
       about: "Sobre",
@@ -18,7 +18,7 @@ const CONTENT = {
     hero: {
       eyebrow: "Olá, eu sou",
       name: "Alice Perim Borges",
-      role: "Analista de TI Pleno · Backend Developer",
+      role: "Desenvolvedora BPM Pleno · Backend Developer",
       tagline:
         "Construo APIs, automações e integrações que reduzem trabalho manual e mantêm sistemas rodando com performance — com Python, Azure e GCP.",
       ctaProjects: "Ver projetos",
@@ -30,7 +30,7 @@ const CONTENT = {
     about: {
       title: "Sobre mim",
       kicker: "Resumo profissional",
-      text: "Analista de TI Pleno com mais de 3 anos de atuação na área de tecnologia, com foco em desenvolvimento backend, automação de processos e integração de sistemas. Experiência sólida no desenvolvimento e manutenção de REST APIs (Python/Flask/FastAPI), gestão de bancos de dados SQL e NoSQL, e deploy em cloud (Azure e GCP). Perfil analítico com histórico comprovado em redução de trabalho manual através de automações, melhoria de processos internos e suporte técnico a equipes multidisciplinares. Atualmente cursando Sistemas de Informação (FAESA) e em busca de oportunidades que permitam aprofundar a atuação em engenharia de software e arquitetura de sistemas.",
+      text: "Desenvolvedora BPM Pleno e Backend Developer com mais de 3 anos de atuação na área de tecnologia, com foco em desenvolvimento backend, automação de processos e integração de sistemas. Experiência sólida no desenvolvimento e manutenção de REST APIs (Python/Flask/FastAPI), gestão de bancos de dados SQL e NoSQL, e deploy em cloud (Azure e GCP). Perfil analítico com histórico comprovado em redução de trabalho manual através de automações, melhoria de processos internos e suporte técnico a equipes multidisciplinares. Atualmente cursando Sistemas de Informação (FAESA) e em busca de oportunidades que permitam aprofundar a atuação em engenharia de software e arquitetura de sistemas.",
       highlights: [
         { label: "3+ anos", value: "em tecnologia" },
         { label: "Backend", value: "Python · Flask · FastAPI" },
@@ -54,9 +54,10 @@ const CONTENT = {
             "Django",
             "Node.js",
             "Next.js",
+            "React",
             "Pandas",
             "Selenium",
-            "APIs REST (Node.js & Python)",
+            "APIs REST & SOAP",
             "Webhooks em Larga Escala",
           ],
         },
@@ -74,7 +75,7 @@ const CONTENT = {
         },
         {
           name: "Low-Code & Automação",
-          items: ["FlutterFlow", "Make (Integromat)", "N8N", "Zapier", "TakeBlip"],
+          items: ["BPM (Automação de Processos)", "FlutterFlow", "N8N", "Make (Integromat)", "Zapier", "TakeBlip"],
         },
         {
           name: "Análise de Dados",
@@ -87,11 +88,36 @@ const CONTENT = {
       kicker: "Trajetória",
       items: [
         {
+          role: "Desenvolvedora BPM Pleno",
+          company: "Globalsys",
+          location: "Vila Velha, ES (Remoto)",
+          period: "Jul/2026 — Atual",
+          current: true,
+          bullets: [
+            "Desenvolvimento, automação e orquestração de processos de negócio internos com ferramentas BPM e low-code",
+            "Desenho técnico e implementação de fluxos de processos automatizados",
+            "Criação de lógicas e integrações em JavaScript dentro de ferramentas low-code e scripts customizados",
+            "Integração entre sistemas internos e externos via APIs REST/SOAP, webhooks, bancos de dados, filas e arquivos",
+            "Desenvolvimento em Python e React, com lógica avançada, manipulação de dados e consumo de APIs",
+            "Criação de automações com n8n e ferramentas BPM/workflow equivalentes",
+            "Utilização de bancos de dados relacionais e não relacionais",
+            "Análise de causa-raiz de incidentes e sustentação avançada de fluxos automatizados",
+            "Padronização de arquiteturas, componentes reutilizáveis e boas práticas de desenvolvimento BPM",
+            "Tradução de requisitos funcionais em soluções técnicas viáveis e escaláveis",
+            "Validação técnica de fluxos e integrações antes da entrada em produção",
+            "Versionamento de código com Git e boas práticas de engenharia",
+            "Tratamento de exceções, logs e monitoramento de fluxos",
+            "Aplicação de segurança da informação em automações e ambientes corporativos críticos",
+            "Auxílio e treinamento técnico de desenvolvedores BPM juniores",
+            "Contribuição para a definição e evolução do stack tecnológico de automação e BPM",
+            "Elaboração e manutenção de documentação técnica das soluções",
+          ],
+        },
+        {
           role: "Analista de TI Pleno",
           company: "Unit",
           location: "Vitória, ES",
-          period: "Ago/2025 — Atual",
-          current: true,
+          period: "Ago/2025 — Jul/2026",
           bullets: [
             "Desenvolvimento e manutenção de REST APIs em Python (Flask e FastAPI), com deploy e gerenciamento em Azure, garantindo disponibilidade e performance dos serviços",
             "Integração entre sistemas internos via APIs, processamento de scripts automatizados e conexão com múltiplas fontes de dados",
@@ -233,9 +259,9 @@ const CONTENT = {
 
   en: {
     meta: {
-      title: "Alice Perim Borges — Mid-level IT Analyst | Backend Developer",
+      title: "Alice Perim Borges — Mid-level BPM Developer | Backend Developer",
       description:
-        "Portfolio of Alice Perim Borges, Mid-level IT Analyst and Backend Developer specialized in Python, Azure and GCP.",
+        "Portfolio of Alice Perim Borges, Mid-level BPM Developer and Backend Developer specialized in Python, Azure and GCP.",
     },
     nav: {
       about: "About",
@@ -249,7 +275,7 @@ const CONTENT = {
     hero: {
       eyebrow: "Hi, I'm",
       name: "Alice Perim Borges",
-      role: "Mid-level IT Analyst · Backend Developer",
+      role: "Mid-level BPM Developer · Backend Developer",
       tagline:
         "I build APIs, automations and integrations that cut manual work and keep systems running with performance — using Python, Azure and GCP.",
       ctaProjects: "View projects",
@@ -261,7 +287,7 @@ const CONTENT = {
     about: {
       title: "About me",
       kicker: "Professional summary",
-      text: "Mid-level IT Analyst with over 3 years of experience in technology, focused on backend development, process automation, and systems integration. Solid experience building and maintaining REST APIs (Python/Flask/FastAPI), managing SQL and NoSQL databases, and deploying to the cloud (Azure and GCP). Analytical profile with a proven track record of reducing manual work through automation, improving internal processes, and providing technical support to cross-functional teams. Currently pursuing a degree in Information Systems (FAESA) and looking for opportunities to deepen expertise in software engineering and systems architecture.",
+      text: "Mid-level BPM Developer and Backend Developer with over 3 years of experience in technology, focused on backend development, process automation, and systems integration. Solid experience building and maintaining REST APIs (Python/Flask/FastAPI), managing SQL and NoSQL databases, and deploying to the cloud (Azure and GCP). Analytical profile with a proven track record of reducing manual work through automation, improving internal processes, and providing technical support to cross-functional teams. Currently pursuing a degree in Information Systems (FAESA) and looking for opportunities to deepen expertise in software engineering and systems architecture.",
       highlights: [
         { label: "3+ years", value: "in technology" },
         { label: "Backend", value: "Python · Flask · FastAPI" },
@@ -285,9 +311,10 @@ const CONTENT = {
             "Django",
             "Node.js",
             "Next.js",
+            "React",
             "Pandas",
             "Selenium",
-            "REST APIs (Node.js & Python)",
+            "REST & SOAP APIs",
             "Large-Scale Webhook Handling",
           ],
         },
@@ -305,7 +332,7 @@ const CONTENT = {
         },
         {
           name: "Low-Code & Automation",
-          items: ["FlutterFlow", "Make (Integromat)", "N8N", "Zapier", "TakeBlip"],
+          items: ["BPM (Process Automation)", "FlutterFlow", "N8N", "Make (Integromat)", "Zapier", "TakeBlip"],
         },
         {
           name: "Data Analysis",
@@ -318,11 +345,36 @@ const CONTENT = {
       kicker: "Journey",
       items: [
         {
+          role: "Mid-level BPM Developer",
+          company: "Globalsys",
+          location: "Vila Velha, ES (Remote)",
+          period: "Jul/2026 — Present",
+          current: true,
+          bullets: [
+            "Developed, automated and orchestrated internal business processes using BPM and low-code tools",
+            "Technical design and implementation of automated process flows",
+            "Built logic and integrations in JavaScript within low-code tools and custom scripts",
+            "Integrated internal and external systems via REST/SOAP APIs, webhooks, databases, queues and files",
+            "Developed in Python and React, with advanced logic, data manipulation and API consumption",
+            "Built automations with n8n and equivalent BPM/workflow tools",
+            "Worked with relational and non-relational databases",
+            "Root-cause analysis of incidents and advanced support of automated flows",
+            "Standardized architectures, reusable components and BPM development best practices",
+            "Translated functional requirements into viable, scalable technical solutions",
+            "Technical validation of flows and integrations before production release",
+            "Version control with Git and engineering best practices",
+            "Exception handling, logging and flow monitoring",
+            "Applied information security practices in automations and critical corporate environments",
+            "Supported and trained junior BPM developers",
+            "Contributed to defining and evolving the automation and BPM technology stack",
+            "Wrote and maintained technical documentation for solutions",
+          ],
+        },
+        {
           role: "Mid-level IT Analyst",
           company: "Unit",
           location: "Vitória, ES",
-          period: "Aug/2025 — Present",
-          current: true,
+          period: "Aug/2025 — Jul/2026",
           bullets: [
             "Developed and maintained REST APIs in Python (Flask and FastAPI), deploying and managing them on Azure, ensuring service availability and performance",
             "Integrated internal systems via APIs, automated script processing, and connected multiple data sources",
