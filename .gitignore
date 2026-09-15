@@ -6,3 +6,6 @@ Thumbs.db
 
 # Currículo original solto na raiz (a cópia publicada fica em assets/files/)
 /Alice Perim.pdf
+
+.vercel
+.env*
