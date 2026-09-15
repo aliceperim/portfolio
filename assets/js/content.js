@@ -48,11 +48,21 @@ const CONTENT = {
         },
         {
           name: "Frameworks & Bibliotecas",
-          items: ["Flask", "FastAPI", "Django", "Node.js", "Next.js", "Pandas", "Selenium"],
+          items: [
+            "Flask",
+            "FastAPI",
+            "Django",
+            "Node.js",
+            "Next.js",
+            "Pandas",
+            "Selenium",
+            "APIs REST (Node.js & Python)",
+            "Webhooks em Larga Escala",
+          ],
         },
         {
           name: "Banco de Dados",
-          items: ["SQL Server", "MySQL", "PostgreSQL", "Firebase (NoSQL)", "MongoDB", "BigQuery"],
+          items: ["SQL Server", "MySQL", "PostgreSQL", "Redis (Cache)", "Firebase (NoSQL)", "MongoDB", "BigQuery"],
         },
         {
           name: "Cloud & DevOps",
@@ -255,11 +265,21 @@ const CONTENT = {
         },
         {
           name: "Frameworks & Libraries",
-          items: ["Flask", "FastAPI", "Django", "Node.js", "Next.js", "Pandas", "Selenium"],
+          items: [
+            "Flask",
+            "FastAPI",
+            "Django",
+            "Node.js",
+            "Next.js",
+            "Pandas",
+            "Selenium",
+            "REST APIs (Node.js & Python)",
+            "Large-Scale Webhook Handling",
+          ],
         },
         {
           name: "Databases",
-          items: ["SQL Server", "MySQL", "PostgreSQL", "Firebase (NoSQL)", "MongoDB", "BigQuery"],
+          items: ["SQL Server", "MySQL", "PostgreSQL", "Redis (Cache)", "Firebase (NoSQL)", "MongoDB", "BigQuery"],
         },
         {
           name: "Cloud & DevOps",
