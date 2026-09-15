@@ -1,0 +1,85 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+  <title>Projetos — Alice Perim Borges</title>
+  <meta name="description" content="Projetos de Alice Perim Borges — em construção." />
+  <meta name="theme-color" content="#0b0f14" />
+
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="Projetos — Alice Perim Borges" />
+  <meta property="og:description" content="Estudos de caso e projetos pessoais em Python, APIs e automações." />
+
+  <link rel="icon" href="assets/img/favicon.svg" type="image/svg+xml" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600;700&family=Playfair+Display:ital,wght@0,600;0,700;1,500;1,600&display=swap"
+    rel="stylesheet"
+  />
+
+  <link rel="stylesheet" href="assets/css/style.css" />
+</head>
+<body>
+  <header class="site-header" id="site-header">
+    <div class="container header-inner">
+      <a href="index.html" class="logo">AP<span>.</span>dev</a>
+
+      <nav class="nav-menu" id="nav-menu">
+        <ul class="nav-links">
+          <li><a href="index.html#about" id="nav-about">Sobre</a></li>
+          <li><a href="index.html#skills" id="nav-skills">Habilidades</a></li>
+          <li><a href="index.html#experience" id="nav-experience">Experiência</a></li>
+          <li><a href="index.html#education" id="nav-education">Formação</a></li>
+          <li><a href="projects.html" id="nav-projects">Projetos</a></li>
+          <li><a href="index.html#contact" id="nav-contact">Contato</a></li>
+        </ul>
+        <div class="nav-actions">
+          <div class="lang-switch" role="group" aria-label="Language switch">
+            <button class="lang-btn" data-lang="pt" type="button">PT</button>
+            <button class="lang-btn" data-lang="en" type="button">EN</button>
+          </div>
+          <a class="btn btn-ghost" id="nav-resume" href="#" target="_blank" rel="noopener">Currículo</a>
+        </div>
+      </nav>
+
+      <button class="nav-toggle" id="nav-toggle" aria-label="Menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <main>
+    <section style="padding-top: 168px;">
+      <div class="container">
+        <a href="index.html" class="back-home-link" id="projects-back-home">Voltar para a Home</a>
+
+        <div class="section-head" data-reveal>
+          <span class="kicker" id="projects-kicker">Portfólio</span>
+          <h1 class="section-title" id="projects-title">Projetos</h1>
+          <p class="projects-subtitle" id="projects-subtitle"></p>
+        </div>
+
+        <div class="coming-soon" data-reveal>
+          <h3 id="projects-coming-title">Em construção</h3>
+          <p id="projects-coming-text"></p>
+          <a class="btn btn-primary" id="projects-github-cta" href="#" target="_blank" rel="noopener">Ver GitHub</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <span id="footer-rights"></span>
+      <span id="footer-built"></span>
+    </div>
+  </footer>
+
+  <script src="assets/js/content.js"></script>
+  <script src="assets/js/common.js"></script>
+  <script src="assets/js/projects.js"></script>
+</body>
+</html>

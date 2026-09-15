@@ -16,13 +16,25 @@
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link
-    href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600;700&family=Playfair+Display:ital,wght@0,600;0,700;1,500;1,600&display=swap"
+    href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600;700&family=Playfair+Display:ital,wght@0,600;0,700;1,500;1,600&display=swap"
     rel="stylesheet"
   />
 
   <link rel="stylesheet" href="assets/css/style.css" />
 </head>
 <body>
+  <div class="boot-screen" id="boot-screen">
+    <div class="boot-inner">
+      <div class="boot-logo">AP<span>.</span>dev</div>
+      <div class="boot-log" id="boot-log"></div>
+      <div class="boot-bar-track">
+        <div class="boot-bar-fill" id="boot-bar-fill"></div>
+      </div>
+      <div class="boot-percent" id="boot-percent">0%</div>
+      <button class="boot-skip" id="boot-skip" type="button">Skip</button>
+    </div>
+  </div>
+
   <header class="site-header" id="site-header">
     <div class="container header-inner">
       <a href="#top" class="logo">AP<span>.</span>dev</a>
@@ -33,7 +45,7 @@
           <li><a href="#skills" id="nav-skills">Habilidades</a></li>
           <li><a href="#experience" id="nav-experience">Experiência</a></li>
           <li><a href="#education" id="nav-education">Formação</a></li>
-          <li><a href="#projects" id="nav-projects">Projetos</a></li>
+          <li><a href="projects.html" id="nav-projects">Projetos</a></li>
           <li><a href="#contact" id="nav-contact">Contato</a></li>
         </ul>
         <div class="nav-actions">
@@ -62,7 +74,7 @@
           <p class="hero-tagline" id="hero-tagline"></p>
 
           <div class="hero-actions">
-            <a class="btn btn-primary" id="hero-cta-projects" href="#projects">Ver projetos</a>
+            <a class="btn btn-primary" id="hero-cta-projects" href="projects.html">Ver projetos</a>
             <a class="btn btn-outline" id="hero-cta-contact" href="#contact">Fale comigo</a>
             <a class="btn btn-outline" id="hero-cta-resume" href="#" target="_blank" rel="noopener">Baixar currículo</a>
           </div>
@@ -152,19 +164,16 @@
       </div>
     </section>
 
-    <!-- PROJECTS -->
+    <!-- PROJECTS TEASER -->
     <section id="projects">
       <div class="container">
-        <div class="section-head" data-reveal>
-          <span class="kicker" id="projects-kicker">Portfólio</span>
-          <h2 class="section-title" id="projects-title">Projetos</h2>
-          <p class="projects-subtitle" id="projects-subtitle"></p>
-        </div>
-
-        <div class="coming-soon" data-reveal>
-          <h3 id="projects-coming-title">Em construção</h3>
-          <p id="projects-coming-text"></p>
-          <a class="btn btn-primary" id="projects-github-cta" href="#" target="_blank" rel="noopener">Ver GitHub</a>
+        <div class="projects-teaser" data-reveal>
+          <div>
+            <span class="kicker" id="projects-kicker">Portfólio</span>
+            <h2 class="section-title" id="projects-title" style="margin-bottom: 10px;">Projetos</h2>
+            <p class="projects-teaser-text" id="projects-teaser-text"></p>
+          </div>
+          <a class="btn btn-primary" id="projects-teaser-cta" href="projects.html">Ver página de projetos</a>
         </div>
       </div>
     </section>
@@ -195,6 +204,8 @@
   </footer>
 
   <script src="assets/js/content.js"></script>
+  <script src="assets/js/common.js"></script>
+  <script src="assets/js/intro.js"></script>
   <script src="assets/js/main.js"></script>
 </body>
 </html>
