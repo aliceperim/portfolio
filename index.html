@@ -1,0 +1,200 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+  <title>Alice Perim Borges — Portfólio</title>
+  <meta name="description" content="Portfólio de Alice Perim Borges, Analista de TI Pleno e Backend Developer." />
+  <meta name="theme-color" content="#0b0f14" />
+
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="Alice Perim Borges — Analista de TI Pleno | Backend Developer" />
+  <meta property="og:description" content="Portfólio de Alice Perim Borges, especializada em Python, Azure e GCP." />
+
+  <link rel="icon" href="assets/img/favicon.svg" type="image/svg+xml" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600;700&display=swap"
+    rel="stylesheet"
+  />
+
+  <link rel="stylesheet" href="assets/css/style.css" />
+</head>
+<body>
+  <header class="site-header" id="site-header">
+    <div class="container header-inner">
+      <a href="#top" class="logo">AP<span>.</span>dev</a>
+
+      <nav class="nav-menu" id="nav-menu">
+        <ul class="nav-links">
+          <li><a href="#about" id="nav-about">Sobre</a></li>
+          <li><a href="#skills" id="nav-skills">Habilidades</a></li>
+          <li><a href="#experience" id="nav-experience">Experiência</a></li>
+          <li><a href="#education" id="nav-education">Formação</a></li>
+          <li><a href="#projects" id="nav-projects">Projetos</a></li>
+          <li><a href="#contact" id="nav-contact">Contato</a></li>
+        </ul>
+        <div class="nav-actions">
+          <div class="lang-switch" role="group" aria-label="Language switch">
+            <button class="lang-btn" data-lang="pt" type="button">PT</button>
+            <button class="lang-btn" data-lang="en" type="button">EN</button>
+          </div>
+          <a class="btn btn-ghost" id="nav-resume" href="#" target="_blank" rel="noopener">Currículo</a>
+        </div>
+      </nav>
+
+      <button class="nav-toggle" id="nav-toggle" aria-label="Menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <main id="top">
+    <!-- HERO -->
+    <section class="hero">
+      <div class="container hero-grid">
+        <div data-reveal>
+          <span class="eyebrow" id="hero-eyebrow">Olá, eu sou</span>
+          <h1 class="hero-name" id="hero-name">Alice Perim Borges</h1>
+          <p class="hero-role" id="hero-role">Analista de TI Pleno · Backend Developer</p>
+          <p class="hero-tagline" id="hero-tagline"></p>
+
+          <div class="hero-actions">
+            <a class="btn btn-primary" id="hero-cta-projects" href="#projects">Ver projetos</a>
+            <a class="btn btn-outline" id="hero-cta-contact" href="#contact">Fale comigo</a>
+            <a class="btn btn-outline" id="hero-cta-resume" href="#" target="_blank" rel="noopener">Baixar currículo</a>
+          </div>
+
+          <div class="hero-meta">
+            <span class="dot-status" aria-hidden="true"></span>
+            <span id="hero-location">Serra, ES — Brasil</span>
+          </div>
+        </div>
+
+        <div data-reveal>
+          <div class="code-card">
+            <div class="code-card-head">
+              <span class="code-dot"></span><span class="code-dot"></span><span class="code-dot"></span>
+              <span class="code-card-title" id="hero-code-title">perfil.py</span>
+            </div>
+            <pre><code><span class="tok-kw">class</span> <span class="tok-fn">Developer</span>:
+    <span class="tok-kw">def</span> <span class="tok-fn">__init__</span>(self):
+        self.name = <span class="tok-str">"Alice Perim Borges"</span>
+        self.role = <span class="tok-str">"Backend Developer"</span>
+        self.stack = [<span class="tok-str">"Python"</span>, <span class="tok-str">"Flask"</span>, <span class="tok-str">"FastAPI"</span>,
+                      <span class="tok-str">"Azure"</span>, <span class="tok-str">"GCP"</span>]
+        self.experience_years = 3
+
+    <span class="tok-kw">def</span> <span class="tok-fn">build</span>(self):
+        <span class="tok-com"># APIs, automações e integrações</span>
+        <span class="tok-kw">return</span> <span class="tok-str">"scalable, reliable systems"</span></code></pre>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ABOUT -->
+    <section id="about">
+      <div class="container">
+        <div class="section-head" data-reveal>
+          <span class="kicker" id="about-kicker">Resumo profissional</span>
+          <h2 class="section-title" id="about-title">Sobre mim</h2>
+        </div>
+        <div class="about-grid">
+          <p class="about-text" id="about-text" data-reveal></p>
+          <div class="about-highlights" id="about-highlights" data-reveal></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SKILLS -->
+    <section id="skills">
+      <div class="container">
+        <div class="section-head" data-reveal>
+          <span class="kicker" id="skills-kicker">Stack</span>
+          <h2 class="section-title" id="skills-title">Habilidades técnicas</h2>
+        </div>
+        <div class="skills-grid" id="skills-grid" data-reveal></div>
+      </div>
+    </section>
+
+    <!-- EXPERIENCE -->
+    <section id="experience">
+      <div class="container">
+        <div class="section-head" data-reveal>
+          <span class="kicker" id="experience-kicker">Trajetória</span>
+          <h2 class="section-title" id="experience-title">Experiência profissional</h2>
+        </div>
+        <div class="timeline" id="experience-timeline" data-reveal></div>
+
+        <div class="other-experience" data-reveal>
+          <h3 id="experience-other-title">Trajetória adicional</h3>
+          <div class="other-list" id="experience-other"></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- EDUCATION -->
+    <section id="education">
+      <div class="container">
+        <div class="section-head" data-reveal>
+          <span class="kicker" id="education-kicker">Educação</span>
+          <h2 class="section-title" id="education-title">Formação acadêmica</h2>
+        </div>
+        <div class="education-grid" id="education-list" data-reveal></div>
+
+        <div data-reveal>
+          <h3 class="cert-title" id="cert-title">Certificações</h3>
+          <div class="cert-list" id="cert-list"></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- PROJECTS -->
+    <section id="projects">
+      <div class="container">
+        <div class="section-head" data-reveal>
+          <span class="kicker" id="projects-kicker">Portfólio</span>
+          <h2 class="section-title" id="projects-title">Projetos</h2>
+          <p class="projects-subtitle" id="projects-subtitle"></p>
+        </div>
+
+        <div class="coming-soon" data-reveal>
+          <h3 id="projects-coming-title">Em construção</h3>
+          <p id="projects-coming-text"></p>
+          <a class="btn btn-primary" id="projects-github-cta" href="#" target="_blank" rel="noopener">Ver GitHub</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact">
+      <div class="container">
+        <div class="section-head" data-reveal>
+          <span class="kicker" id="contact-kicker">Contato</span>
+          <h2 class="section-title" id="contact-title">Vamos conversar</h2>
+        </div>
+        <div class="contact-grid">
+          <div data-reveal>
+            <p class="contact-text" id="contact-text"></p>
+            <a class="btn btn-primary" id="contact-email-cta" href="#">Enviar e-mail</a>
+          </div>
+          <div class="contact-list" id="contact-list" data-reveal></div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <span id="footer-rights"></span>
+      <span id="footer-built"></span>
+    </div>
+  </footer>
+
+  <script src="assets/js/content.js"></script>
+  <script src="assets/js/main.js"></script>
+</body>
+</html>
